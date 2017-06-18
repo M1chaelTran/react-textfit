@@ -1,33 +1,62 @@
 {
-  "name": "react-textfit",
-  "version": "1.0.0",
-  "description": "React component to fit headlines and paragraphs into any element",
-  "main": "lib/index.js",
-  "scripts": {
-    "clean": "rimraf lib dist",
-    "build": "babel src --out-dir lib",
-    "lint": "eslint src test examples",
-    "test": "NODE_ENV=test mocha --compilers js:babel-core/register --recursive",
-    "test:watch": "NODE_ENV=test mocha --compilers js:babel-core/register --recursive --watch",
-    "prepublish": "npm run lint && npm run test && npm run clean && npm run build"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/malte-wessel/react-textfit.git"
-  },
-  "keywords": [
-    "textfit",
-    "fittext",
-    "text",
-    "react",
-    "react-component"
+  "_args": [
+    [
+      {
+        "raw": "react-textfit",
+        "scope": null,
+        "escapedName": "react-textfit",
+        "name": "react-textfit",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "C:\\projects\\terem\\qantas-cash-web"
+    ]
   ],
-  "author": "Malte Wessel",
-  "license": "MIT",
+  "_from": "react-textfit@latest",
+  "_id": "react-textfit@1.0.0",
+  "_inCache": true,
+  "_location": "/react-textfit",
+  "_nodeVersion": "6.10.2",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/react-textfit-1.0.0.tgz_1497005401493_0.0978273544460535"
+  },
+  "_npmUser": {
+    "name": "denis-sokolov",
+    "email": "denis@sokolov.cc"
+  },
+  "_npmVersion": "3.10.10",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "react-textfit",
+    "scope": null,
+    "escapedName": "react-textfit",
+    "name": "react-textfit",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-textfit/-/react-textfit-1.0.0.tgz",
+  "_shasum": "dbb7785c833a128912475acc05c55fddee62aa26",
+  "_shrinkwrap": null,
+  "_spec": "react-textfit",
+  "_where": "C:\\projects\\terem\\qantas-cash-web",
+  "author": {
+    "name": "Malte Wessel"
+  },
   "bugs": {
     "url": "https://github.com/malte-wessel/react-textfit/issues"
   },
-  "homepage": "https://github.com/malte-wessel/react-textfit",
+  "dependencies": {
+    "process": "^0.11.9",
+    "prop-types": "^15.5.10"
+  },
+  "description": "React component to fit headlines and paragraphs into any element",
   "devDependencies": {
     "babel-cli": "^6.1.18",
     "babel-core": "^6.0.0",
@@ -47,12 +76,50 @@
     "webpack": "^1.9.6",
     "webpack-dev-server": "^1.8.2"
   },
+  "directories": {},
+  "dist": {
+    "shasum": "dbb7785c833a128912475acc05c55fddee62aa26",
+    "tarball": "https://registry.npmjs.org/react-textfit/-/react-textfit-1.0.0.tgz"
+  },
+  "gitHead": "3da17e6b0b1cc0080bfa66f70c3e4f0ec3319255",
+  "homepage": "https://github.com/malte-wessel/react-textfit",
+  "keywords": [
+    "textfit",
+    "fittext",
+    "text",
+    "react",
+    "react-component"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "maintainers": [
+    {
+      "name": "denis-sokolov",
+      "email": "denis@sokolov.cc"
+    },
+    {
+      "name": "malte-wessel",
+      "email": "delabreak@gmail.com"
+    }
+  ],
+  "name": "react-textfit",
+  "optionalDependencies": {},
   "peerDependencies": {
     "react": "^15.0.0",
     "react-dom": "^15.0.0"
   },
-  "dependencies": {
-    "process": "^0.11.9",
-    "prop-types": "^15.5.10"
-  }
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/malte-wessel/react-textfit.git"
+  },
+  "scripts": {
+    "build": "babel src --out-dir lib",
+    "clean": "rimraf lib dist",
+    "lint": "eslint src test examples",
+    "prepublish": "npm run lint && npm run test && npm run clean && npm run build",
+    "test": "NODE_ENV=test mocha --compilers js:babel-core/register --recursive",
+    "test:watch": "NODE_ENV=test mocha --compilers js:babel-core/register --recursive --watch"
+  },
+  "version": "1.0.0"
 }
